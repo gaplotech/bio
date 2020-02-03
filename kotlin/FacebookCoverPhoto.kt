@@ -1,3 +1,5 @@
+package kotlin
+
 import java.util.concurrent.Future
 
 /**
@@ -33,6 +35,6 @@ object GapLoTech: SoftwareEngineer(), Passion, ProgrammingLanguage by (Kotlin + 
 
 }
 
-fun main(args: Array<String>){
+fun main(){
     GapLoTech.write()
 }
